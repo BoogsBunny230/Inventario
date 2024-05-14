@@ -1,0 +1,5 @@
+Solo descargue la aplicacion desde el repositorio GitHub, Inventario
+
+Usuarios:
+	Correo = "guille2121@gmail.com", Clave = "321321" Almacenista
+	Correo = "guille1212@gmail.com", Clave = "123123" Administrador

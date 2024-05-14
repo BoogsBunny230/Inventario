@@ -1,0 +1,43 @@
+﻿@model List<Inventario.Models.MovimientoProducto>
+
+@{
+    ViewData["Title"] = "Historial de Movimientos";
+}
+
+<h1>Historial de Movimientos</h1>
+
+<form asp-action="FiltrarMovimientos" method="post">
+    <div class="form-group">
+        <label for="tipoMovimiento">Tipo de Movimiento:</label>
+        <select name="tipoMovimiento" id="tipoMovimiento" class="form-control">
+            <option value="">Selecciona una opcion</option>
+            <option value="Entrada">Entrada</option>
+            <option value="Salida">Salida</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Filtrar</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Tipo de Movimiento</th>
+            <th>Cantidad</th>
+            <th>Fecha y Hora</th>
+            <th>Usuario</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movimiento in Model)
+        {
+            <tr>
+                <td>@movimiento.Producto.NombreProd</td>
+                <td>@movimiento.Tipo</td>
+                <td>@movimiento.Cantidad</td>
+                <td>@movimiento.FechaHora</td>
+                <td>@movimiento.UsuarioId</td>
+            </tr>
+        }
+    </tbody>
+</table>

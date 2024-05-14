@@ -1,0 +1,57 @@
+﻿@model Tuple<List<Inventario.Models.Producto>, List<Inventario.Models.Producto>>
+
+@{
+    ViewData["Title"] = "Productos Activos e Inactivos";
+}
+
+<h1>Productos Activos e Inactivos</h1>
+
+<h2>Productos Activos</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in Model.Item1)
+        {
+            <tr>
+                <td>@producto.NombreProd</td>
+                <td>@producto.Cantidad</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@producto.Id">Detalles</a> |
+                    <a asp-action="Edit" asp-route-id="@producto.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@producto.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Productos Inactivos</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var producto in Model.Item2)
+        {
+            <tr>
+                <td>@producto.NombreProd</td>
+                <td>@producto.Cantidad</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@producto.Id">Detalles</a> |
+                    <a asp-action="Edit" asp-route-id="@producto.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@producto.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

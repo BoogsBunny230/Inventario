@@ -1,0 +1,35 @@
+﻿@model Inventario.Models.Producto
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Eliminar Producto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h3>¿Estás seguro de que quieres dar de baja este producto?</h3>
+        <div>
+            <h4>Detalles del Producto</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">Nombre</dt>
+                <dd class="col-sm-10">@Model.NombreProd</dd>
+                <dt class="col-sm-2">Cantidad</dt>
+                <dd class="col-sm-10">@Model.Cantidad</dd>
+            </dl>
+
+            <form asp-action="DeleteConfirmed" method="post">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Dar de Baja" class="btn btn-danger" /> |
+                <a asp-action="Index" class="btn btn-secondary">Regresar</a>
+            </form>
+
+
+        </div>
+    </div>
+
+</body>
+</html>

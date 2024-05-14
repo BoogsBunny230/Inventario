@@ -1,0 +1,96 @@
+﻿@model List<Inventario.Models.Producto>
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var httpContext = HttpContextAccessor.HttpContext;
+    var esAdministrador = httpContext.User.IsInRole("Administrador");
+    var esAlmacenista = HttpContextAccessor.HttpContext.User.IsInRole("Almacenista");
+}
+
+@{
+    ViewData["Title"] = "Inventario";
+}
+
+<h1>Inventario</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Cantidad</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreProd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cantidad)
+                </td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Acciones">
+                        @if (esAdministrador)
+                        {
+                            <form asp-controller="Producto" asp-action="Edit" method="get">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-sm btn-primary">Editar</button>
+                            </form>
+                        }
+                        <form asp-controller="Producto" asp-action="Delete" method="post" onsubmit="return confirm('¿Estás seguro de que deseas eliminar este producto?');">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-sm btn-danger ml-2 mr-2">Eliminar</button>
+                        </form>
+
+                        @if (esAdministrador)
+                        {
+                            <form asp-controller="Producto" asp-action="Entrada" method="post">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-sm btn-success">Entrada</button>
+                            </form>
+
+                        }
+
+                        @if (esAlmacenista)
+                        {
+                            @if (item.Activo)
+                            {
+                                <form asp-controller="Producto" asp-action="Salida" method="get">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-sm btn-warning">Salida</button>
+                                </form>
+                            }
+                            
+                        }
+
+                        @if (esAdministrador)
+                        {
+                        @if (item.Activo)
+                        {
+                            <form asp-controller="Producto" asp-action="DarDeBaja" method="post" onsubmit="return confirm('¿Estás seguro de que deseas dar de baja este producto?');">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn btn-sm btn-warning">Dar de Baja</button>
+                            </form>
+                        }
+                        }
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @if (esAdministrador)
+    {
+        <a asp-action="Create" class="btn btn-sm btn-primary">Agregar Nuevo Producto</a>
+    }
+    @if (esAdministrador)
+    {
+        <a asp-action="HistorialMovimientos" class="btn btn-sm btn-info">Historial de Movimientos</a>
+    }
+    <a asp-action="ActivosInactivos" class="btn btn-sm btn-secondary">Ver Activos e Inactivos</a>
+</div>

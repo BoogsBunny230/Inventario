@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\models\\inventario1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\models\\inventario1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\data\\da_logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\data\\da_logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\views\\producto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\views\\producto\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\views\\producto\\historialmovimientos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\views\\producto\\historialmovimientos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\views\\producto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\views\\producto\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|c:\\users\\guillermo\\documents\\_inventario\\inventario\\inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B4DA33E-1A7D-44CD-9CC1-3F249A39FD4E}|Inventario\\Inventario.csproj|solutionrelative:inventario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Inventario\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Usuario.cs",
+              "RelativeToolTip": "Inventario\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:31:56.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Inventario\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Role.cs",
+              "RelativeToolTip": "Inventario\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:31:41.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inventario1Context.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Inventario1Context.cs",
+              "RelativeDocumentMoniker": "Inventario\\Models\\Inventario1Context.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Inventario1Context.cs",
+              "RelativeToolTip": "Inventario\\Models\\Inventario1Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:29:47.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Estado.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Estado.cs",
+              "RelativeDocumentMoniker": "Inventario\\Models\\Estado.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Estado.cs",
+              "RelativeToolTip": "Inventario\\Models\\Estado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:28:47.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HistorialMovimientos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Views\\Producto\\HistorialMovimientos.cshtml",
+              "RelativeDocumentMoniker": "Inventario\\Views\\Producto\\HistorialMovimientos.cshtml",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Views\\Producto\\HistorialMovimientos.cshtml",
+              "RelativeToolTip": "Inventario\\Views\\Producto\\HistorialMovimientos.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T09:04:37.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DA_Logica.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Data\\DA_Logica.cs",
+              "RelativeDocumentMoniker": "Inventario\\Data\\DA_Logica.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Data\\DA_Logica.cs",
+              "RelativeToolTip": "Inventario\\Data\\DA_Logica.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:51:02.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Views\\Producto\\Create.cshtml",
+              "RelativeDocumentMoniker": "Inventario\\Views\\Producto\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Views\\Producto\\Create.cshtml",
+              "RelativeToolTip": "Inventario\\Views\\Producto\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T08:21:59.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Inventario\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Models\\Producto.cs",
+              "RelativeToolTip": "Inventario\\Models\\Producto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA3wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T06:49:02.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Views\\Producto\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Inventario\\Views\\Producto\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Views\\Producto\\Delete.cshtml",
+              "RelativeToolTip": "Inventario\\Views\\Producto\\Delete.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T06:57:12.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "Inventario\\Views\\Producto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "Inventario\\Views\\Producto\\Index.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwEQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T06:49:45.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Program.cs",
+              "RelativeDocumentMoniker": "Inventario\\Program.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Program.cs",
+              "RelativeToolTip": "Inventario\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T06:35:24.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Inventario\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Guillermo\\Documents\\_Inventario\\Inventario\\Inventario\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Inventario\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAEoBAAAAAAAAAAAcwMgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T06:34:48.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

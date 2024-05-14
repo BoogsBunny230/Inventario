@@ -1,0 +1,73 @@
+Scrypts
+
+CREATE TABLE Estado (
+    Status INT PRIMARY KEY,
+    Nombre NVARCHAR(MAX) NOT NULL
+);
+//----------------------------------------------------------------------------------------//
+
+CREATE TABLE Estados (
+    Status INT PRIMARY KEY,
+    Nombre NVARCHAR(MAX) NOT NULL
+);
+
+CREATE TABLE Roles (
+    Id INT PRIMARY KEY,
+    Nombre NVARCHAR(MAX) NOT NULL
+);
+
+CREATE TABLE Usuarios (
+    Id INT PRIMARY KEY,
+    Nombre NVARCHAR(MAX) NOT NULL,
+    RoleId INT,
+    EstadoStatus INT,
+    CONSTRAINT FK_RoleUsuario FOREIGN KEY (RoleId) REFERENCES Roles(Id),
+    CONSTRAINT FK_EstadoUsuario FOREIGN KEY (EstadoStatus) REFERENCES Estados(Status)
+);
+
+CREATE TABLE Productos (
+    Id INT PRIMARY KEY,
+    Nombre NVARCHAR(MAX) NOT NULL,
+    Precio DECIMAL(18, 2) NOT NULL,
+    Stock INT NOT NULL
+);
+
+CREATE TABLE MovimientosProductos (
+    Id INT PRIMARY KEY,
+    ProductoId INT,
+    TipoMovimiento NVARCHAR(MAX) NOT NULL,
+    Cantidad INT NOT NULL,
+    FechaMovimiento DATETIME NOT NULL,
+    CONSTRAINT FK_ProductoMovimiento FOREIGN KEY (ProductoId) REFERENCES Productos(Id)
+);
+//----------------------------------------------------------------------------------------//
+
+CREATE TABLE Productos (
+    Id INT PRIMARY KEY,
+    NombreProd NVARCHAR(MAX) NOT NULL,
+    Cantidad INT NOT NULL,
+    Activo BIT NOT NULL
+);
+
+CREATE TABLE MovimientosProductos (
+    Id INT PRIMARY KEY,
+    ProductoId INT,
+    Cantidad INT NOT NULL,
+    Tipo NVARCHAR(MAX) NOT NULL,
+    FechaHora DATETIME NOT NULL,
+    UsuarioId NVARCHAR(MAX) NOT NULL,
+    RealizadoPor NVARCHAR(MAX) NOT NULL,
+    CONSTRAINT FK_ProductoMovimiento FOREIGN KEY (ProductoId) REFERENCES Productos(Id)
+);
+//----------------------------------------------------------------------------------------//
+CREATE TABLE Usuarios (
+    IdUsuario INT PRIMARY KEY,
+    Nombre NVARCHAR(100) NOT NULL,
+    Correo NVARCHAR(50) NOT NULL,
+    Clave NVARCHAR(100) NOT NULL,"La deje con esa cantidad de caracteres porque olvide mencionar que se necesito encryptar las conseñas por un SHA256"
+    Rol NVARCHAR(MAX) NOT NULL,    
+    IdRol INT,
+    Status INT,
+    CONSTRAINT FK_Usuarios_Roles FOREIGN KEY (IdRol) REFERENCES Roles(Id),
+    CONSTRAINT FK_Usuarios_Estados FOREIGN KEY (Status) REFERENCES Estados(Status)
+);
